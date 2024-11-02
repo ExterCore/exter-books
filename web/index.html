@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Uchen&display=swap" rel="stylesheet">
+  <title>exter-books</title>
+</head>
+
+<body id="body">
+  <!-- <div class="bg"></div> -->
+
+  <div class="book-start-page">
+    <div class="book">
+      <img src="../images/sampul.png" alt="">
+      <input type="text" class="header" id="nheader" value="My Notebook" name="" id="">
+      <input type="text" class="desc" id="ndesc" value="Description" name="" id="">
+      <div class="button">Open</div>
+      <div class="clip"></div>
+    </div>
+    
+      <div class="papers">
+        <img src="../images/sampulbelakang.png" class="inside1" alt="">
+        <img src="../images/sampulbelakang.png" class="inside2" alt="">
+        <img src="../images/kertas.png" class="page1" alt="">
+        <img src="../images/kertas.png" class="page2" alt="">
+        <img src="../images/klipkertas.png" class="bracket" alt="">
+        <div class="pink-border"></div>
+        <div class="pink-border" style="left: 93.4%;top: 45%;" ></div>
+        <div class="back-text">Back</div>
+        <div class="next-text">Next Page</div>
+        <div class="next-border">
+        </div>
+        <div class="back-border">
+        </div>
+
+        <div class="paper-1">
+          <div class="page-number pageone" id="1">1/15</div>
+          <!-- <div class="paper-header">Dear Book!</div> -->
+          <input type="text" value="Dear Book!" id="header-1" class="paper-header one-1">
+          <textarea class="custom-input one-2" id="text-1">Write Something</textarea>
+        </div>
+
+        <div class="paper-2">
+          <div class="page-number pagetwo" id="2">2/15</div>
+          <input type="text" value="Dear Book!" id="header-2" class="paper-header two-1">
+          <textarea class="custom-input two-2"  id="text-2">Write Something</textarea>
+        </div>
+
+      </div>
+  </div>
+
+</body>
+
+</html>
+
+<script src="./script.js" type="text/javascript"></script>
