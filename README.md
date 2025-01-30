@@ -23,7 +23,7 @@ THIS SCRIPT IS STANDALONE AND CAN BE USED ON QBCORE OR ESX FRAMEWORKS
 	["books"] = {
 		label = "books",
 		weight = 35,
-		stack = true,
+		stack = false,
 		close = true,
 		description = "books",
 		client = {
