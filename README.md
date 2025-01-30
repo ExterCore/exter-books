@@ -19,3 +19,14 @@ THIS SCRIPT IS STANDALONE AND CAN BE USED ON QBCORE OR ESX FRAMEWORKS
 	    ('books', 'books')
     ;
 
+## FOR OX_INVENTORY PUT THIS ITEM CODE INTO THE FOLDER ox_inventory/data/items.lua
+	["books"] = {
+		label = "books",
+		weight = 35,
+		stack = true,
+		close = true,
+		description = "books",
+		client = {
+			image = "books.png",
+		}
+	},
